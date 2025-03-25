@@ -8,11 +8,13 @@ a {
   color: var(--Brun-fonc, #5b3219);
   font-size: 16px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 img,
 video {
   display: block;
+  max-width: 100%;
 }
 
 //var(--Blanc-vanille, #FFF9F0)
@@ -51,4 +53,26 @@ h1 {
   font-family: "Exodus Demo";
   font-size: 80px;
   font-weight: 400;
+}
+
+h2 {
+  color: var(--Brun-fonc-satur, #824034);
+  text-align: center;
+
+  /* Mini mini titre */
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3 {
+  color: var(--Brun-fonc-satur, #824034);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h4 {
+  color: var(--Brun-caramel, #d8a286);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2.24px;
 }

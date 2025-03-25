@@ -1,0 +1,19 @@
+.header-bouton {
+  display: flex;
+  width: 167.501px;
+  height: 39px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border-top: 2px solid var(--Brun-caramel, #d8a286);
+  border-right: 2px solid var(--Brun-caramel, #d8a286);
+  border-bottom: 4px solid var(--Brun-caramel, #d8a286);
+  border-left: 2px solid var(--Brun-caramel, #d8a286);
+  background: var(--Vanille, #f8e6d0);
+}
+
+.header-whole {
+  margin-top: 55px;
+}

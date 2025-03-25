@@ -4,7 +4,84 @@
   <body>
     <extends src="header.html"></extends>
 
-    <h1>detail</h1>
+    <div class="container">
+      <div class="titles">
+        <h1>Titre Projet</h1>
+        <img src="symboles/étoiletitre.svg" alt="petite étoile" />
+      </div>
+      <div class="titles-line"></div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="imagesProjets/customize.webp" alt="Image de mon projet" />
+        </div>
+        <div class="row">
+          <div class="col-5">
+            <div class="project-detail-box">
+              <div class="project-detail-title">
+              <h2>Infos</h2>
+            </div>
+              <p class="project-detail-text">
+                Zone de texte Zone de texteZone de texteZone de texteZone de
+                texteZone de texteZone de texteZone de texteZone de texteZone de
+                texteZone de texteZone de texteZone de texte
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-detail-box">
+              <div class="project-detail-title">
+                <h2>Logiciel/s</h2>
+              </div>
+              <div class="project-detail-logo">
+                <img
+                  src="imagesProjets/logoApplication/figma.png"
+                  alt="logofigma"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="l-margin-between-top"></div>
+    
+    <div class="container">
+    <div class="see-more">
+      <p class="see-more-title">Autres projets :</p>
+      <div class="see-more-line"></div>
+    </div>
+
+      <div class="row">
+        <div class="col-4">
+          <extends
+          src="project-miniature.html"
+          locals='{"title": "Vitamin Well","subject": "Vidéo", "img":"imagesProjets/minipub.webp"}'
+        ></extends>
+          ></extends>
+        </div>
+
+        <div class="col-4">
+          <extends
+          src="project-miniature.html"
+          locals='{"title": "Retraite","subject": "Photographie", "img":"imagesProjets/miniretraite.webp"}'
+          ></extends>
+        </div>
+
+        <div class="col-4">
+          <extends
+            src="project-miniature.html"
+            locals='{"title": "Fiche de film","subject": "UI Design", "img":"imagesProjets/afficheFilm.webp"}'
+          ></extends>
+        </div>
+      </div>
+    </div>
+
+    <div class="l-margin-bottom"></div>
 
     <script src="js/main.js" type="module"></script>
   </body>

@@ -1,0 +1,38 @@
+.project-teaser-whole {
+  display: flex;
+  width: 356px;
+  height: 309px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.project-teaser-button {
+  display: flex;
+  width: 356px;
+  height: 42px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border-top: 1px solid var(--Brun-caramel, #d8a286);
+  border-right: 1px solid var(--Brun-caramel, #d8a286);
+  border-bottom: 4px solid var(--Brun-caramel, #d8a286);
+  border-left: 1px solid var(--Brun-caramel, #d8a286);
+  background: #f8eada;
+}
+
+.project-teaser-image {
+  width: 356px;
+  height: 247px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border-top: 2px solid var(--Vanille, #f8e6d0);
+  border-right: 2px solid var(--Vanille, #f8e6d0);
+  border-bottom: 5px solid var(--Vanille, #f8e6d0);
+  border-left: 2px solid var(--Vanille, #f8e6d0);
+}

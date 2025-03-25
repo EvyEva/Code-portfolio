@@ -1,0 +1,63 @@
+.intro-text {
+  display: flex;
+  width: 546px;
+  height: 340px;
+  padding: 75px 35px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  background: rgba(255, 249, 240, 0.8);
+  position: relative;
+}
+
+.intro-title {
+  align-self: stretch;
+  color: var(--brun-satur-mais-pas-trop, #7b453b);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.intro-explained {
+  color: var(--brun-satur-mais-pas-trop, #7b453b);
+  text-align: center;
+
+  /* texte mini mini titre */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.intro {
+  background-image: url(../imagesProjets/Artfight/vole.gif);
+  background-size: cover;
+  border-radius: 30px;
+  height: 761px;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  align-items: center;
+  position: relative;
+  margin: 94px 0;
+}
+
+.intro-opacity {
+  border-radius: 30px;
+  background: var(--Blanc-transparent, rgba(255, 255, 255, 0.52));
+  filter: blur(3.049999952316284px);
+  position: absolute;
+  inset: 0;
+}
+
+.intro-stars {
+  position: absolute;
+  top: -13px;
+  right: -9px;
+}
+
+.intro-stars-two {
+  position: absolute;
+  bottom: -22px;
+  left: -17px;
+}
