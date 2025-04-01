@@ -1,21 +1,27 @@
-.project-detail-text {
-  display: flex;
-  width: 452px;
-  height: 246px;
-  padding: 84px 16px 65px 16px;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
+.project-detail-box {
+  margin-top: 38px;
   border-radius: 30px;
   border-top: 2px solid var(--Brun-caramel, #d8a286);
   border-right: 2px solid var(--Brun-caramel, #d8a286);
   border-bottom: 5px solid var(--Brun-caramel, #d8a286);
   border-left: 2px solid var(--Brun-caramel, #d8a286);
   background: var(--Vanille, #f8e6d0);
+  overflow: hidden;
 }
 
 .project-detail-title {
-  border-radius: 30px 30px 0px 0px;
-  background: var(--Brun-caramel, #d8a286);
-  width: 452px;
+  background: #d8a286;
+  padding: 20px;
+}
+
+.project-detail-text {
+  padding: 24px 17px;
+}
+
+.project-softwares-logos {
+  border-radius: 36px;
+  height: 36px;
+  width: 36px;
+  border-radius: 36px;
+  background-color: black;
 }

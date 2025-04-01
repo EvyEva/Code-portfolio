@@ -1,0 +1,138 @@
+.about-present {
+  display: flex;
+  width: 356px;
+  height: 362px;
+  padding: 12px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  border-top: 2px solid #824034;
+  border-right: 2px solid #824034;
+  border-bottom: 5px solid #824034;
+  border-left: 2px solid #824034;
+  color: #824034;
+  font-size: 16px;
+  font-weight: 500;
+  background-image: url(../imagesProjets/papieer.png);
+  background-size: 100%;
+  position: relative;
+}
+
+.about-softwares-logos-all {
+  display: flex;
+  width: 248px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 13px 14px;
+  flex-wrap: wrap;
+}
+
+.about-softwares-logos {
+  border-radius: 36px;
+  height: 36px;
+  width: 36px;
+  border-radius: 36px;
+  background-color: black;
+}
+
+.about-star {
+  position: absolute;
+  top: -24px;
+}
+
+.about-drawing {
+  display: flex;
+  padding: 100px 11px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 30px;
+  border-top: 3px solid #d8a286;
+  border-right: 3px solid #d8a286;
+  border-bottom: 6px solid #d8a286;
+  border-left: 3px solid #d8a286;
+  background: #f8e6d0;
+  position: absolute;
+  width: 100%;
+}
+
+.about-drawing-whole {
+  position: relative;
+}
+
+.about-star-2 {
+  position: absolute;
+  top: -34px;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-softwares {
+  border-radius: 30px;
+  border-top: 2px solid var(--Vanille, #f8e6d0);
+  border-right: 2px solid var(--Vanille, #f8e6d0);
+  border-bottom: 5px solid var(--Vanille, #f8e6d0);
+  border-left: 2px solid var(--Vanille, #f8e6d0);
+  background: var(--Brun-caramel, #d8a286);
+  height: 187px;
+  overflow: hidden;
+
+  h2 {
+    background: #f8e6d0;
+    padding: 12px 0;
+  }
+}
+
+.about-softwares-logos-all {
+  padding: 24px 6px;
+}
+
+.about-mail {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border-top: 2px solid #d8a286;
+  border-right: 2px solid #d8a286;
+  border-bottom: 4px solid #d8a286;
+  border-left: 2px solid #d8a286;
+  background: #f8e6d0;
+}
+
+.about-education {
+  border-radius: 30px;
+  border-top: 2px solid #f8e6d0;
+  border-right: 2px solid #f8e6d0;
+  border-bottom: 5px solid #f8e6d0;
+  border-left: 2px solid #f8e6d0;
+  background: #d8a286;
+  color: #824034;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+
+  h2 {
+    background: #f8e6d0;
+    padding: 12px 0;
+  }
+}
+
+.about-education-text {
+  display: flex;
+  width: 233px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 29px 14px;
+}
+
+.about-line {
+  width: 131px;
+  height: 2px;
+  background: #824034;
+}

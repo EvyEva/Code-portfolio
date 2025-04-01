@@ -20,9 +20,7 @@
         <div class="row">
           <div class="col-5">
             <div class="project-detail-box">
-              <div class="project-detail-title">
-              <h2>Infos</h2>
-            </div>
+              <h2 class="project-detail-title">Infos</h2>
               <p class="project-detail-text">
                 Zone de texte Zone de texteZone de texteZone de texteZone de
                 texteZone de texteZone de texteZone de texteZone de texteZone de
@@ -30,13 +28,14 @@
               </p>
             </div>
           </div>
+
           <div class="col-3">
             <div class="project-detail-box">
-              <div class="project-detail-title">
-                <h2>Logiciel/s</h2>
-              </div>
-              <div class="project-detail-logo">
+              <h2 class="project-detail-title">Logiciel/s</h2>
+
+              <div class="project-logos-all">
                 <img
+                  class="project-softwares-logos"
                   src="imagesProjets/logoApplication/figma.png"
                   alt="logofigma"
                 />
@@ -47,28 +46,26 @@
       </div>
     </div>
 
-
     <div class="l-margin-between-top"></div>
-    
+
     <div class="container">
-    <div class="see-more">
-      <p class="see-more-title">Autres projets :</p>
-      <div class="see-more-line"></div>
-    </div>
+      <div class="see-more">
+        <p class="see-more-title">Autres projets :</p>
+        <div class="see-more-line"></div>
+      </div>
 
       <div class="row">
         <div class="col-4">
           <extends
-          src="project-miniature.html"
-          locals='{"title": "Vitamin Well","subject": "Vidéo", "img":"imagesProjets/minipub.webp"}'
-        ></extends>
+            src="project-miniature.html"
+            locals='{"title": "Vitamin Well","subject": "Vidéo", "img":"imagesProjets/minipub.webp"}'
           ></extends>
         </div>
 
         <div class="col-4">
           <extends
-          src="project-miniature.html"
-          locals='{"title": "Retraite","subject": "Photographie", "img":"imagesProjets/miniretraite.webp"}'
+            src="project-miniature.html"
+            locals='{"title": "Retraite","subject": "Photographie", "img":"imagesProjets/miniretraite.webp"}'
           ></extends>
         </div>
 
