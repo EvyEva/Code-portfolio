@@ -35,4 +35,25 @@
   border-right: 2px solid var(--Vanille, #f8e6d0);
   border-bottom: 5px solid var(--Vanille, #f8e6d0);
   border-left: 2px solid var(--Vanille, #f8e6d0);
+  transition: transform 0.2s;
+}
+
+.project-teaser-button:hover {
+  border-top: 2px solid #824034;
+  border-right: 2px solid #824034;
+  border-bottom: 4px solid #824034;
+  border-left: 2px solid #824034;
+  background: #d8a286;
+
+  h3 {
+    font-weight: 700;
+  }
+}
+
+.project-teaser-image:hover {
+  border-top: 2px solid #824034;
+  border-right: 2px solid #824034;
+  border-bottom: 4px solid #824034;
+  border-left: 2px solid #824034;
+  transform: scale(1.05);
 }

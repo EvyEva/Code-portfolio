@@ -103,6 +103,18 @@
   background: #f8e6d0;
 }
 
+.about-mail:hover {
+  border-top: 2px solid #824034;
+  border-right: 2px solid #824034;
+  border-bottom: 4px solid #824034;
+  border-left: 2px solid #824034;
+  background: #d8a286;
+
+  p {
+    font-weight: 700;
+  }
+}
+
 .about-education {
   border-radius: 30px;
   border-top: 2px solid #f8e6d0;
@@ -154,4 +166,8 @@
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+}
+
+.about-present-bonjour {
+  margin-bottom: 25px;
 }
