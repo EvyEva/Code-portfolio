@@ -12,3 +12,11 @@
   background: #d8a286;
   margin-bottom: 115px;
 }
+
+.title-star {
+  transition: transform 0.2s;
+}
+
+.title-star:hover {
+  transform: rotate(180deg);
+}

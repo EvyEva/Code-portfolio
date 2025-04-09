@@ -11,6 +11,20 @@
   background: rgba(255, 249, 240, 0.8);
   position: relative;
   justify-content: center;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* monte un peu */
+  }
+  100% {
+    transform: translateY(0); /* redescend */
+  }
 }
 
 .intro-title {
@@ -55,10 +69,38 @@
   position: absolute;
   top: -13px;
   right: -9px;
+  animation: float-stars 4s ease-in-out infinite;
 }
 
 .intro-stars-two {
   position: absolute;
   bottom: -22px;
   left: -17px;
+  animation: float-stars-two 4s ease-in-out 1s infinite;
+}
+
+/* Animation stars */
+@keyframes float-stars {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-13px); /* monte un peu */
+  }
+  100% {
+    transform: translateY(0); /* redescend */
+  }
+}
+
+/* Animation stars */
+@keyframes float-stars-two {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-13px); /* monte un peu */
+  }
+  100% {
+    transform: translateY(0); /* redescend */
+  }
 }

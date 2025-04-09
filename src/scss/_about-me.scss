@@ -1,7 +1,6 @@
 .about-present {
   display: flex;
-  width: 356px;
-  height: 362px;
+  height: 100%;
   padding: 12px 25px;
   justify-content: center;
   align-items: center;
@@ -17,11 +16,11 @@
   background-image: url(../imagesProjets/papieer.png);
   background-size: 100%;
   position: relative;
+  margin-top: 21px;
 }
 
 .about-softwares-logos-all {
   display: flex;
-  width: 248px;
   align-items: flex-start;
   align-content: flex-start;
   gap: 13px 14px;
@@ -71,11 +70,11 @@
 
 .about-softwares {
   border-radius: 30px;
-  border-top: 2px solid var(--Vanille, #f8e6d0);
-  border-right: 2px solid var(--Vanille, #f8e6d0);
-  border-bottom: 5px solid var(--Vanille, #f8e6d0);
-  border-left: 2px solid var(--Vanille, #f8e6d0);
-  background: var(--Brun-caramel, #d8a286);
+  border-top: 2px solid#f8e6d0;
+  border-right: 2px solid #f8e6d0;
+  border-bottom: 5px solid #f8e6d0;
+  border-left: 2px solid #f8e6d0;
+  background: #d8a286;
   height: 187px;
   overflow: hidden;
 

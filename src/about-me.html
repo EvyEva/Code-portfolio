@@ -3,12 +3,19 @@
   <extends src="head.html"></extends>
 
   <body>
-    <extends src="header.html"></extends>
+    <extends
+      src="header.html"
+      locals='{"homeclass":"", "projectclass":"", "aboutclass":"is-active"}'
+    ></extends>
 
     <div class="container">
       <div class="titles">
         <h1>A propos</h1>
-        <img src="symboles/étoiletitre.svg" alt="petite étoile" />
+        <img
+          class="title-star"
+          src="symboles/étoiletitre.svg"
+          alt="petite étoile"
+        />
       </div>
       <div class="l-title-space"></div>
       <div class="titles-line"></div>

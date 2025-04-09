@@ -13,6 +13,24 @@
   border-left: 2px solid var(--Brun-caramel, #d8a286);
   background: var(--Vanille, #f8e6d0);
   transition: transform 0.2s;
+
+  &.is-active {
+    border-radius: 20px;
+    border-top: 2px solid #824034;
+    border-right: 2px solid #824034;
+    border-bottom: 4px solid #824034;
+    border-left: 2px solid #824034;
+    background: #d8a286;
+    color: #5b3219;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+  }
 }
 
 .header-whole {

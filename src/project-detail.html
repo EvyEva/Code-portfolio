@@ -2,12 +2,19 @@
 <html>
   <extends src="head.html"></extends>
   <body>
-    <extends src="header.html"></extends>
+    <extends
+      src="header.html"
+      locals='{"homeclass":"", "projectclass":"is-active", "aboutclass":""}'
+    ></extends>
 
     <div class="container">
       <div class="titles">
         <h1>Customized</h1>
-        <img src="symboles/étoiletitre.svg" alt="petite étoile" />
+        <img
+          class="title-star"
+          src="symboles/étoiletitre.svg"
+          alt="petite étoile"
+        />
       </div>
       <div class="l-title-space"></div>
       <div class="titles-line"></div>
@@ -38,7 +45,12 @@
                 <img
                   class="project-softwares-logos"
                   src="imagesProjets/logoApplication/figma.png"
-                  alt="logofigma"
+                  alt="logo figma"
+                />
+                <img
+                  class="project-softwares-logos"
+                  src="imagesProjets/logoApplication/photoshop.svg.png"
+                  alt="logo photoshop"
                 />
               </div>
             </div>
