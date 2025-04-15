@@ -34,9 +34,15 @@
 }
 
 .project-logos-all {
+  margin: auto;
   padding: 26px 40px;
   display: flex;
   align-items: center;
-  align-content: center;
-  gap: 13px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-present {
+  background-repeat: no-repeat;
+  height: 100%;
 }

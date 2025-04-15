@@ -100,6 +100,10 @@
   border-bottom: 4px solid #d8a286;
   border-left: 2px solid #d8a286;
   background: #f8e6d0;
+
+  span:last-child {
+    display: none;
+  }
 }
 
 .about-mail:hover {
@@ -111,6 +115,14 @@
 
   p {
     font-weight: 700;
+  }
+
+  span:first-child {
+    display: none;
+  }
+
+  span:last-child {
+    display: block;
   }
 }
 
