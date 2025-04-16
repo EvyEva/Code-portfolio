@@ -35,6 +35,28 @@
   font-weight: 700;
 }
 
+.intro-title:hover {
+  animation: wiggle 0.4s ease-in-out;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .intro-explained {
   color: var(--brun-satur-mais-pas-trop, #7b453b);
   text-align: center;
